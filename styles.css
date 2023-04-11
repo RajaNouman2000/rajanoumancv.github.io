@@ -15,6 +15,8 @@ img {
   width: 150px;
   height: 150px;
   object-fit: cover;
+  border: 4px solid #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
 }
 
 a {
@@ -66,14 +68,27 @@ a {
 .education p,
 .experience p,
 .skills ul,
-.certifications ul,
-.references p {
+.certifications ul {
   font-size: 16px;
   margin-bottom: 5px;
 }
 
+.education_list {
+  padding: 10px 15px;
+  margin-bottom: 10px;
+}
+
+.skill_list {
+  padding: 10px 15px;
+  margin-bottom: 10px;
+}
+
+.certification_list {
+  padding: 10px 15px;
+  margin-bottom: 10px;
+}
+
 .job {
-  border: 1px solid #ccc;
   padding: 10px;
   margin-bottom: 10px;
 }
@@ -95,14 +110,10 @@ a {
 
 .skills ul,
 .certifications ul {
-  list-style: none;
+  list-style: disc;
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  /* grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));*/
   grid-gap: 10px;
-}
-
-.references p {
-  margin-bottom: 5px;
 }
 
 @media (min-width: 600px) {
