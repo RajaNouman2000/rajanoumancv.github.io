@@ -22,6 +22,9 @@ body {
 
 .header {
   text-align: center;
+  background-color: #1abc9c;
+  color: #fff;
+  padding: 10px;
 }
 
 .header h1 {
@@ -42,6 +45,10 @@ body {
 .references h2 {
   font-size: 24px;
   margin-bottom: 10px;
+  background-color: #2980b9;
+  color: #fff;
+  padding: 5px 10px;
+  display: inline-block;
 }
 
 .objective p,
